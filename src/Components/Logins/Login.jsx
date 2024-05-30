@@ -44,7 +44,7 @@ const Login = () => {
             <div className={styles.socialLogin}>
               <p>or continue with</p>
               <div className={styles.socialIcons}>
-                <button><img src="images/login/facebook.png" alt="Facebook" /></button>
+                <button><img src="images/login/Facebook.png" alt="Facebook" /></button>
                 <button><img src="images/login/apple.png" alt="Apple" /></button>
                 <button><img src="images/login/google.png" alt="Google" /></button>
               </div>
