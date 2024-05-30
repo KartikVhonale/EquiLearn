@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import React from 'react';
 import Sidebar from '@/Components/courses/Slidebar';
 import Head from '@/Components/courses/Head';
