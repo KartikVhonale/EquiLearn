@@ -1,13 +1,13 @@
 import React from 'react';
 import Sidebar from '@/Components/courses/Slidebar';
-import Header from '@/Components/courses/Head';
+import Head from '@/Components/courses/Head';
 import ProgressCard from '@/Components/courses/ProgressCard';
 const Courses = () => {
   return (
     <div className="flex h-screen bg-gray-50">
       <Sidebar />
       <div className="flex-1 flex flex-col">
-        <Header />
+        <Head />
         <div className="p-6 flex-1 overflow-y-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div>
