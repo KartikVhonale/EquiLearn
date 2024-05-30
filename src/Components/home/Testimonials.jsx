@@ -6,7 +6,7 @@ const Testimonials = () => {
       <h2>What People Say About Us</h2>
       <div className={styles.testimonial}>
         <p>
-          "The data science courses, and internship program provided were instrumental in helping me launch my career in data science. Thank you for the valuable learning experience!"
+          {" 'The data science courses, and internship program provided were instrumental in helping me launch my career in data science. Thank you for the valuable learning experience!' "}
         </p>
         <span>Dinesh Singh, Mumbai, India</span>
       </div>

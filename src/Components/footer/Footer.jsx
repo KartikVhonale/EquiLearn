@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.footerBottom}>
-        <h3>If you didn't find the Courses you are interested in or have questions?</h3>
+        <h3>{"If you didn't find the Courses you are interested in or have questions ?"}</h3>
         <form className={styles.contactForm}>
           <input type="email" placeholder="YOUR EMAIL" />
           <input type="tel" placeholder="+91" />
