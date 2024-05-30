@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #001f3f;
-    color: white;
+    background: #B9EAFF;
+    padding-left:20px;
+    padding-right:20px;
   }
   
   .logo {
@@ -14,20 +14,41 @@
   
   .logo h1 {
     margin-left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    width: 60%;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    background: #002B3E;
+    /* border-top: 100px solid #002B3E;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent; */
   }
   
   .nav a {
-    margin: 0 15px;
-    color: white;
     text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    background: #000;
+    padding: 10px 20px 10px 20px;
+    margin: 12px;
+    border-radius: 10px;
   }
   
-  .userAccount {
+  .userInfo {
     display: flex;
     align-items: center;
   }
   
-  .userAccount span {
+  .userInfo span {
     margin-right: 10px;
   }
   

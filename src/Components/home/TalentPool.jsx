@@ -3,9 +3,11 @@ import styles from '../../styles/TalentPool.module.css';
 const TalentPool = () => {
   return (
     <section className={styles.talentPool}>
-      <h2>Get access to exclusive internship and job opportunities</h2>
+      <h2>Talent Pool</h2>
       <p>
-        Give this industry level Exam Designed by top Recruits all over the world and unveil a chance to sit in an exclusive interview.
+        Get access to exclusive internship and job opportunities. Give this
+        industry level Exam Designed by top Recruits all over the world and
+        unveil a chance to sit in an exclusive interview.
       </p>
       <div className={styles.benefits}>
         <span>Quality Job</span>

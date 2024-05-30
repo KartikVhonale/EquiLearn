@@ -1,0 +1,13 @@
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+  }
+  

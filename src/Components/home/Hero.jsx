@@ -7,7 +7,7 @@ const Hero = () => {
       <p>
         Building a community of people who want to develop their skills by providing the best content on the web for free in one place.
       </p>
-      <button className={styles.startButton}>Start learning Now</button>
+      <button className={styles.button}>Start learning Now</button>
     </section>
   );
 };
