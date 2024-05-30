@@ -1,0 +1,23 @@
+.talentPool {
+    background-color: #e6f7ff;
+    padding: 50px;
+    margin: 50px 0;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .applyButton {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

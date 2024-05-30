@@ -1,23 +1,22 @@
 import Image from 'next/image';
+import styles from '../../styles/Header.module.css';
 
 const Header = () => {
   return (
-    <header>
-      <div className="logo">
-        <Image src="/logo.png" alt="EquiLearn Logo" width={40} height={40} />
-        <span>EQUILEARN</span>
+    <header className={styles.header}>
+      <div className={styles.logo}>
+        <Image src="/logo.png" alt="Equilearn Logo" width={50} height={50} />
+        <h1>EQUILEARN</h1>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#talent-pool">Talent Pool</a></li>
-          <li><a href="#add-buddy">Add Buddy</a></li>
-        </ul>
+      <nav className={styles.nav}>
+        <a href="#">About Us</a>
+        <a href="#">Courses</a>
+        <a href="#">Talent Pool</a>
+        <a href="#">Add Buddy</a>
       </nav>
-      <div className="user-info">
+      <div className={styles.userAccount}>
         <span>user.email@gmail.com</span>
-        <Image src="/user.png" alt="User Profile" width={40} height={40} />
+        <Image src="/user-avatar.png" alt="User Avatar" width={40} height={40} />
       </div>
     </header>
   );

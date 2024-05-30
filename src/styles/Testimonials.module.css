@@ -1,0 +1,14 @@
+.testimonials {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
