@@ -1,11 +1,11 @@
-/* Container for the entire page */
+
 .container {
     display: flex;
     height: 100vh;
     font-family: Arial, sans-serif;
   }
   
-  /* Left side containing the illustration */
+
   .left {
     flex: 1;
     display: flex;
@@ -19,7 +19,6 @@
     max-width: 500px;
   }
   
-  /* Right side containing the login form */
   .right {
     flex: 1;
     display: flex;
@@ -53,8 +52,6 @@
   .loginBox a:hover {
     text-decoration: underline;
   }
-  
-  /* Input group for email and password fields */
   .inputGroup {
     margin-bottom: 1.5em;
     text-align: left;
