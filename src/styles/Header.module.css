@@ -41,11 +41,11 @@
     text-decoration: none;
     color: #ffffff;
     font-size: 1rem;
-    background: #000;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 1.5% 3% 1.5% 3%;
     margin: 2%;
     border-radius: 10px;
-    box-shadow: #5a5a5a;
   }
   .nav a:hover{
     background: #747474;
