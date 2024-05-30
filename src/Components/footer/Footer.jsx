@@ -6,8 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.footerLogo}>
-          <Image src="/logo.png" alt="Equilearn Logo" width={50} height={50} />
-          <h1>EQUILEARN</h1>
+          <Image src="/images/header/logo.png" alt="Equilearn Logo" width={180} height={120}  />
         </div>
         <div className={styles.footerLinks}>
           <h3>Quick Links</h3>
