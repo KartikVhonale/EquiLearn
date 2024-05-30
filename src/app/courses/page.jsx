@@ -1,7 +1,7 @@
 import React from 'react';
-import Sidebar from '@/components/courses/Slidebar';
-import Header from '@/components/courses/Head';
-import ProgressCard from '@/components/courses/ProgressCard';
+import Sidebar from '@/Components/courses/Slidebar';
+import Header from '@/Components/courses/Head';
+import ProgressCard from '@/Components/courses/ProgressCard';
 const Courses = () => {
   return (
     <div className="flex h-screen bg-gray-50">
