@@ -52,12 +52,12 @@
     box-shadow: #000;
   }
   
-  .userInfo {
+  .userAccount {
     display: flex;
     align-items: center;
   }
   
-  .userInfo span {
+  .userAccount span {
     margin-right: 10px;
   }
   

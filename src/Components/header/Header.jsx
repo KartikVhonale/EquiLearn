@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Image src="/logo.png" alt="Equilearn Logo" width={50} height={50} />
-        <h1>EQUILEARN</h1>
+        <Image src="/images/header/logo.png" alt="Equilearn Logo" width={180} height={120} />
+        {/* <h1>EQUILEARN</h1> */}
       </div>
       <nav className={styles.nav}>
         <a href="#">About Us</a>
@@ -16,7 +16,7 @@ const Header = () => {
       </nav>
       <div className={styles.userAccount}>
         <span>user.email@gmail.com</span>
-        <Image src="/user-avatar.png" alt="User Avatar" width={40} height={40} />
+        <Image src="/images/header/user.png" alt="User Avatar" width={40} height={40} />
       </div>
     </header>
   );
