@@ -1,10 +1,4 @@
 import React from 'react';
-<style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</style>
-
 const Sidebar = () => {
   return (
     <div className="w-64 h-screen bg-gray-100 p-4">
