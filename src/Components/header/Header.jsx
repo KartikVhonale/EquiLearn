@@ -10,9 +10,9 @@ const Header = () => {
       </div>
       <nav className={styles.nav}>
         <a href="#">About Us</a>
-        <a href="#">Courses</a>
+        <a href="/coursepage">Courses</a>
         <a href="#">Talent Pool</a>
-        <a href="#">Add Buddy</a>
+        <a href="/profile">Add Buddy</a>
       </nav>
       <div className={styles.userAccount}>
         <span>user.email@gmail.com</span>

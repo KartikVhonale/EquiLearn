@@ -39,7 +39,7 @@ const Login = () => {
                 </div>
                 <a href="/forgot-password" className={styles.forgotPassword}>Forgot Password?</a>
               </div>
-              <button type="submit" className={styles.loginButton}>Login</button>
+              <button type="submit" href="/coursePage" className={styles.loginButton}>Login</button>
             </form>
             <div className={styles.socialLogin}>
               <p>or continue with</p>
