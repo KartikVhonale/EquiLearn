@@ -1,3 +1,4 @@
+'use client'
 import Signup from "../../Components/Logins/Signup";
 import React from 'react'
 
