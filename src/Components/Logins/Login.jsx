@@ -18,7 +18,7 @@ const Login = () => {
           <div className={styles.loginBox}>
             <h2>Sign in</h2>
             <p>
-              If you don't have an account register
+              If you don&apos;t have an account register
               <br />
               You can <a href="/signup">Register here!</a>
             </p>
