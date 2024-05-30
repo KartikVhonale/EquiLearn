@@ -12,7 +12,7 @@ const Login = () => {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.illustration}>
-            <img src="/illustration.png" alt="Illustration" />
+            <img src="/images/login/him.png" alt="Illustration" />
           </div>
         </div>
         <div className={styles.right}>
@@ -44,9 +44,9 @@ const Login = () => {
             <div className={styles.socialLogin}>
               <p>or continue with</p>
               <div className={styles.socialIcons}>
-                <button><img src="/facebook-icon.png" alt="Facebook" /></button>
-                <button><img src="/apple-icon.png" alt="Apple" /></button>
-                <button><img src="/google-icon.png" alt="Google" /></button>
+                <button><img src="images/login/facebook.png" alt="Facebook" /></button>
+                <button><img src="images/login/apple.png" alt="Apple" /></button>
+                <button><img src="images/login/google.png" alt="Google" /></button>
               </div>
             </div>
           </div>

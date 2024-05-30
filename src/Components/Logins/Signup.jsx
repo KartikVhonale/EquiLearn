@@ -11,7 +11,7 @@ const Signup = () => {
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.illustration}>
-            <img src="/illustration.png" alt="Illustration" />
+            <img src="/images/login/him.png" alt="Illustration" />
           </div>
         </div>
         <div className={styles.right}>

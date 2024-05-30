@@ -15,8 +15,8 @@
   }
   
   .illustration img {
-    width: 80%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 1000px;
   }
   
   /* Right side containing the signup form */
