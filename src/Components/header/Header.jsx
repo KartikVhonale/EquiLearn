@@ -14,10 +14,12 @@ const Header = () => {
         <a href="#">Talent Pool</a>
         <a href="/profile">Add Buddy</a>
       </nav>
+      <a href='/profile'>
       <div className={styles.userAccount}>
         <span>user.email@gmail.com</span>
         <Image src="/images/header/user.png" alt="User Avatar" width={40} height={40} />
       </div>
+      </a>
     </header>
   );
 };
